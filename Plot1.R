@@ -1,7 +1,7 @@
 #####################################################
 # Plot #1
-#
-#
+# Author: Adrian Chavarria
+# Date: 2020-07-09
 #####################################################
 
 #Read data file
@@ -13,7 +13,6 @@ names(power) <- c("Date","Time","Global_active_power","Global_reactive_power","V
 
 #Subsetting power consumption data
 subpower <- subset(power,power$Date=="1/2/2007" | power$Date =="2/2/2007")
-
 
 
 #calling the basic plot function
